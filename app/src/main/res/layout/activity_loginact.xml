@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginapp"
+    tools:context=".loginact">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="@drawable/loginshape"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/Signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="login"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_below="@+id/Signin"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Signin"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="18dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="18dp"
+            android:background="#39B6A2A2"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_below="@+id/email"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_below="@+id/email"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="40dp"
+            android:padding="20dp"
+            android:background="#39B6A2A2"
+            android:drawableLeft="@drawable/baseline_key_24"
+            android:drawablePadding="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/log"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:onClick="onclick"
+            android:text="Login"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_below="@+id/log"
+            android:layout_centerHorizontal="true"
+            android:text="sign up"
+            android:textColor="@color/white"
+            android:id="@+id/regis"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

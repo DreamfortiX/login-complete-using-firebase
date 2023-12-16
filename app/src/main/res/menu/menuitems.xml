@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home"/>
+    <item
+        android:title="About"
+        android:icon="@drawable/baseline_info_24"
+        android:id="@+id/about"/>
+    <item
+        android:title="Contact"
+        android:icon="@drawable/baseline_phone_24"
+        android:id="@+id/contact"/>
+    <item
+        android:title="Service"
+        android:icon="@drawable/baseline_home_repair_service_24"
+        android:id="@+id/service"/>
+
+</group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="profile"
+            >
+            <menu>
+                <item
+                    android:title="login"
+                    android:id="@+id/login"
+                    android:icon="@drawable/baseline_login_24"/>
+                <item
+                    android:title="Register"
+                    android:id="@+id/Register"
+                    android:icon="@drawable/baseline_app_registration_24"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="Communication"
+        >
+        <menu>
+            <item
+                android:title="Share"
+                android:id="@+id/share"
+                android:icon="@drawable/baseline_share_24"/>
+            <item
+                android:title="Rate us"
+                android:id="@+id/rate"
+                android:icon="@drawable/baseline_star_rate_24"/>
+        </menu>
+    </item>
+    </group>
+
+</menu>

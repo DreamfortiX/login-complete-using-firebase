@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".istpage">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#686363"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+
+
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/flagLogo"
+                    android:src="@drawable/flag"
+                    android:layout_margin="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/heading1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/flagLogo"
+                    android:text="AlphaTauri Racing Team"
+                    android:textColor="#E9F4F1F1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:id="@+id/alphaturi"
+                    android:src="@drawable/alphaturi"
+                    android:layout_below="@+id/flagLogo"
+                    android:layout_marginLeft="20dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Prize: Rs.1050000"
+                    android:layout_below="@+id/alphaturi"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entry Fees                  Rs.20000"
+                    android:layout_below="@+id/heading1"
+                    android:textColor="@color/white"
+                    android:id="@+id/enteryFees1"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Winning price             Trophy"
+                    android:layout_below="@+id/enteryFees1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/winningPrize"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Period                         5 Rounds"
+                    android:layout_below="@+id/winningPrize"
+                    android:id="@+id/period1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#686363"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+
+
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/flagLogo2"
+                    android:src="@drawable/flag"
+                    android:layout_margin="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/heading2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/flagLogo2"
+                    android:text="AlphaTauri Racing Team"
+                    android:textColor="#E9F4F1F1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:id="@+id/alphaturi2"
+                    android:src="@drawable/alphaturi"
+                    android:layout_below="@+id/flagLogo2"
+                    android:layout_marginLeft="20dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Prize: Rs.1050000"
+                    android:layout_below="@+id/alphaturi2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entry Fees                  Rs.20000"
+                    android:layout_below="@+id/heading2"
+                    android:textColor="@color/white"
+                    android:id="@+id/enteryFees2"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Winning price             Trophy"
+                    android:layout_below="@+id/enteryFees2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/winningPrize2"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Period                         5 Rounds"
+                    android:layout_below="@+id/winningPrize2"
+                    android:id="@+id/period2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+
+            </RelativeLayout>
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#686363"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+
+
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/flagLogo3"
+                    android:src="@drawable/flag"
+                    android:layout_margin="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/heading3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/flagLogo3"
+                    android:text="AlphaTauri Racing Team"
+                    android:textColor="#E9F4F1F1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:id="@+id/alphaturi3"
+                    android:src="@drawable/alphaturi"
+                    android:layout_below="@+id/flagLogo3"
+                    android:layout_marginLeft="20dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Prize: Rs.1050000"
+                    android:layout_below="@+id/alphaturi3"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entry Fees                  Rs.20000"
+                    android:layout_below="@+id/heading3"
+                    android:textColor="@color/white"
+                    android:id="@+id/enteryFees3"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Winning price               Trophy"
+                    android:layout_below="@+id/enteryFees3"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/winningPrize3"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Period                         5 Rounds"
+                    android:layout_below="@+id/winningPrize3"
+                    android:id="@+id/period3"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+
+            </RelativeLayout>
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#686363"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+
+
+
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/flagLogo4"
+                    android:src="@drawable/flag"
+                    android:layout_margin="20dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/heading4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/flagLogo4"
+                    android:text="AlphaTauri Racing Team"
+                    android:textColor="#E9F4F1F1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:id="@+id/alphaturi4"
+                    android:src="@drawable/alphaturi"
+                    android:layout_below="@+id/flagLogo4"
+                    android:layout_marginLeft="20dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Prize: Rs.1050000"
+                    android:layout_below="@+id/alphaturi4"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entry Fees                              Rs.20000"
+                    android:layout_below="@+id/heading4"
+                    android:textColor="@color/white"
+                    android:id="@+id/enteryFees4"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Winning price                        Trophy"
+                    android:layout_below="@+id/enteryFees4"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/winningPrize4"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Period                                     5 Rounds"
+                    android:layout_below="@+id/winningPrize4"
+                    android:id="@+id/period4"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+
+            </RelativeLayout>
+
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:titleTextColor="@color/cardview_light_background"
+            app:title="FORZA HORIZON"
+            android:background="@color/purple_200"/>
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navi"
+        app:headerLayout="@layout/header"
+        android:layout_gravity="start"
+
+        app:menu="@menu/menuitems">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
